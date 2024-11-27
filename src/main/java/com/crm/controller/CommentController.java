@@ -30,6 +30,8 @@ public class CommentController {
     ){
         System.out.println(1000);
         System.out.println(1000);
+        System.out.println(1000);
+        System.out.println(1000);
         commentService.createComment(commentDto, postId);
             return new ResponseEntity<>("Comment created successfully", HttpStatus.CREATED);
     }
